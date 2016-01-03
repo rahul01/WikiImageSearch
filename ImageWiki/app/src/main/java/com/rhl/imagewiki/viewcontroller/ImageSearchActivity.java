@@ -1,4 +1,4 @@
-package com.rhl.imagewiki;
+package com.rhl.imagewiki.viewcontroller;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +16,10 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.rhl.imagewiki.network.NetworkManager;
+import com.rhl.imagewiki.R;
+import com.rhl.imagewiki.network.ResponseParser;
+import com.rhl.imagewiki.model.Page;
 
 import org.json.JSONObject;
 

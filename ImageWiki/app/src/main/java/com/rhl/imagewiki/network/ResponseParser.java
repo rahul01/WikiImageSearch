@@ -1,4 +1,6 @@
-package com.rhl.imagewiki;
+package com.rhl.imagewiki.network;
+
+import com.rhl.imagewiki.model.Page;
 
 import org.json.JSONException;
 import org.json.JSONObject;

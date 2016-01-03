@@ -1,4 +1,4 @@
-package com.rhl.imagewiki;
+package com.rhl.imagewiki.model;
 
 /**
  * model for single search result

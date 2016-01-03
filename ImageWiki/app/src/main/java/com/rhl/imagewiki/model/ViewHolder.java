@@ -1,4 +1,4 @@
-package com.rhl.imagewiki;
+package com.rhl.imagewiki.model;
 
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.rhl.imagewiki.R;
 
 /**
  * view holder

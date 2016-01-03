@@ -1,4 +1,4 @@
-package com.rhl.imagewiki;
+package com.rhl.imagewiki.viewcontroller;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,6 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.support.v7.widget.RecyclerView;
 
+import com.rhl.imagewiki.R;
+import com.rhl.imagewiki.model.Page;
+import com.rhl.imagewiki.model.ViewHolder;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

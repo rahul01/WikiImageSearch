@@ -1,4 +1,4 @@
-package com.rhl.imagewiki;
+package com.rhl.imagewiki.network;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
