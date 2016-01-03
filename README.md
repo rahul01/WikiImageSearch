@@ -6,7 +6,7 @@ wikipedia image search assignment
 ```
 https://en.wikipedia.org/w/api.php?action=query&prop=pageimages&format=json&piprop=thumbnail&pithumbsize=500&pilimit=50&generator=prefixsearch&gpssearch=<query>
 ```
-* param `pilimit` seems broken as it gets only 10 results for any value
+* param `pilimit` in url seems broken as it gets only 10 results for any value
 * used staggered grid layout manager with 3 columns in `ImageSearchActivity`. can be configured to suit the needs
 ```
  StaggeredGridLayoutManager staggeredGridLayoutManager
