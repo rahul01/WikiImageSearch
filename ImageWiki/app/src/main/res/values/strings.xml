@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Image Wiki</string>
+    <string name="hint">Type to search</string>
+    <string name="network_unavailable">Network not available</string>
+    <string name="unable_to_connect">Unable to connect to server</string>
+    <string name="result_unavailable">Results not found</string>
+    <string name="enter_text">Enter search term</string>
+</resources>
