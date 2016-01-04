@@ -127,14 +127,15 @@ public class ImageSearchActivity extends AppCompatActivity {
 
         @Override
         public void onTextChanged(CharSequence s, int start, int before, int count) {
-            mNetworkManager.cancelPending();
-            if (s.toString().equals("")) {// don't search for empty text
+           
+            if (s.toString().trim().equals("")) {// don't search for empty text
                 showError(R.string.enter_text);
                 return;
             }
             if (mPreviousString.equals(s.toString().trim())) {// don't search for previous query again
                 return;
             }
+            mNetworkManager.cancelPending();
             mPreviousString = s.toString();
             startProgress();
 
